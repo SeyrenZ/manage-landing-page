@@ -1,0 +1,12 @@
+export { default as Logo } from "./logo.svg";
+export { default as FacebookIcon } from "./icon-facebook.svg";
+export { default as TwitterIcon } from "./icon-twitter.svg";
+export { default as InstagramIcon } from "./icon-instagram.svg";
+export { default as PinterestIcon } from "./icon-pinterest.svg";
+export { default as YoutubeIcon } from "./icon-youtube.svg";
+export { default as CloseIcon } from "./icon-close.svg";
+export { default as HamburgerIcon } from "./icon-hamburger.svg";
+export { default as IllustrationHero } from "./illustration-intro.svg";
+export { default as BgDesktop } from "./bg-simplify-section-desktop.svg";
+export { default as BgMobile } from "./bg-simplify-section-mobile.svg";
+export { default as BgTablet } from "./bg-tablet-pattern.svg";
