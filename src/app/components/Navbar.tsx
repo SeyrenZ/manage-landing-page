@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav
         className="w-full max-w-[1280px] mx-auto py-16 flex justify-between items-center"
         data-aos="fade-down"
-        data-aos-duration="1000"
+        data-aos-duration="1200"
       >
         <Link href="#">
           <Logo />

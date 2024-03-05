@@ -10,14 +10,18 @@ const Header = () => {
         <div className="absolute z-0 right-[-290px] top-[-320px]">
           <BgTablet />
         </div>
-        <div className="absolute z-10 right-0 " data-aos="flip-right">
+        <div
+          className="absolute z-10 right-0 "
+          data-aos="flip-right"
+          data-aos-duration="900"
+        >
           <IllustrationHero />
         </div>
         <div className="flex flex-col items-start gap-y-8 relative z-20">
           <div
             className="text-6xl text-darkBlue font-bold leading-[1.10]"
             data-aos="fade-right"
-            data-aos-duration="600"
+            data-aos-duration="800"
           >
             Bring everyone
             <br /> together to build
@@ -26,13 +30,13 @@ const Header = () => {
           <div
             className="text-darkGrayBlue text-lg text-left"
             data-aos="fade-right"
-            data-aos-duration="700"
+            data-aos-duration="900"
           >
             Manage makes it simple for software teams
             <br /> to plan day-to-day tasks while keeping the
             <br /> larger team goals in view.
           </div>
-          <div data-aos="flip-left" data-aos-duration="800">
+          <div data-aos="flip-left" data-aos-duration="1000">
             <Button />
           </div>
         </div>

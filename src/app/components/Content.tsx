@@ -33,7 +33,7 @@ const Content = () => {
       <div
         className="w-full h-full max-w-[1280px] mx-auto flex justify-between"
         data-aos="fade-up"
-        data-aos-duration="900"
+        data-aos-duration="1100"
       >
         <div className="flex flex-col items-start gap-y-10">
           <div className="text-5xl text-darkBlue font-bold ">
