@@ -18,7 +18,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full h-auto px-10  bg-transparent top-0 fixed z-50 ">
+    <header className="w-full h-auto px-10 bg-transparent fixed z-50">
       <nav
         className="w-full max-w-[1280px] mx-auto py-16 flex justify-between items-center"
         data-aos="fade-down"
