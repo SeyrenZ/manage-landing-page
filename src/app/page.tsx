@@ -1,5 +1,5 @@
 "use client";
-import { Content, Header, Review } from "./components";
+import { Banner, Content, Header, Review, Footer } from "./components";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,10 +8,12 @@ export default function Home() {
     Aos.init();
   }, []);
   return (
-    <main className="pt-[176px] overflow-hidden px-10">
+    <main className="pt-[176px] overflow-hidden">
       <Header />
       <Content />
       <Review />
+      <Banner />
+      <Footer />
     </main>
   );
 }

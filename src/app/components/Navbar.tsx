@@ -18,7 +18,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full h-auto px-10 bg-transparent fixed z-50">
+    <header className="w-full h-auto px-10  fixed z-50  ">
       <nav
         className="w-full max-w-[1280px] mx-auto py-16 flex justify-between items-center"
         data-aos="fade-down"
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center gap-x-9">
           {links.map((link, index) => (
             <Link
-              className="text-darkBlue hover:text-darkGrayBlue font-medium"
+              className="text-darkBlue hover:scale-110 font-medium transition ease-in-out duration-300"
               key={index}
               href={link.url}
             >

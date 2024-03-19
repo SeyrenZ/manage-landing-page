@@ -1,4 +1,5 @@
 export { default as Logo } from "./logo.svg";
+export { default as LogoWhite } from "./logo-white.svg";
 export { default as FacebookIcon } from "./icon-facebook.svg";
 export { default as TwitterIcon } from "./icon-twitter.svg";
 export { default as InstagramIcon } from "./icon-instagram.svg";

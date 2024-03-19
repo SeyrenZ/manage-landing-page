@@ -1,13 +1,12 @@
 "use client";
 import Image from "next/image";
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import React, { useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Button } from ".";
-
+import "./styles.css";
 const Review = () => {
+  const [isPaused, setIsPaused] = useState(false);
   type Review = {
     name: string;
     image: string;
@@ -48,10 +47,10 @@ const Review = () => {
           What they've said
         </div>
         <div className="flex items-center gap-x-5">
-          {reviews.map((review, index) => (
+          {[...reviews, ...reviews].map((review, index) => (
             <div
               key={index}
-              className="w-[600px] p-10 rounded-lg bg-veryLightGray flex flex-col items-center justify-center gap-y-5 relative"
+              className="w-[600px] p-10 rounded-lg bg-veryLightGray flex flex-col items-center justify-center gap-y-5 relative animate-infinite-scroll"
             >
               <div>
                 <Image
