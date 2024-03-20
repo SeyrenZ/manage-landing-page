@@ -17,12 +17,12 @@ const config: Config = {
         veryLightGray: "hsl(0, 0%, 98%)",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "infinite-scroll": "infinite-scroll 120s linear infinite",
       },
       keyframes: {
         "infinite-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-500%)" },
         },
       },
     },

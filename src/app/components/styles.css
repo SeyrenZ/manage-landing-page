@@ -1,8 +1,3 @@
-.animate-infinite-scroll {
-    animation-play-state: running;
-  }
-  
-  .animate-infinite-scroll:hover {
+.paused {
     animation-play-state: paused;
   }
-  
